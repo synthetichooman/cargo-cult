@@ -9,30 +9,76 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            text-align: center;
             background-color: #f8f8f8;
+            text-align: center;
         }
         .container {
-            max-width: 800px;
+            max-width: 480px;
             margin: 0 auto;
             background: white;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        img {
+        h1 {
+            font-size: 20px;
+        }
+        .floor-map img {
             max-width: 100%;
             height: auto;
+            border-radius: 5px;
+        }
+        .exhibit-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .exhibit-links a {
+            display: block;
+            background: #ddd;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+        }
+        .back-button {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
             border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>전시 제목</h1>
-        <p>이곳은 전시 설명이 들어가는 공간입니다. 작품과 작가에 대한 정보를 간략하게 소개합니다.</p>
-        <img src="sample.jpg" alt="전시 작품 이미지">
-        <p>작품 설명: 이 작품은 ...</p>
+        <h1>전시 공간 안내</h1>
+        <div class="floor-map">
+            <img src="floor_map.jpg" alt="전시 공간 평면도">
+        </div>
+        <div class="exhibit-links">
+            <a href="exhibit1.html">스타일 1</a>
+            <a href="exhibit2.html">스타일 2</a>
+            <a href="exhibit3.html">스타일 3</a>
+            <a href="exhibit4.html">스타일 4</a>
+            <a href="exhibit5.html">스타일 5</a>
+            <a href="exhibit6.html">스타일 6</a>
+            <a href="exhibit7.html">스타일 7</a>
+            <a href="exhibit8.html">스타일 8</a>
+            <a href="exhibit9.html">에어 맥스 1</a>
+            <a href="exhibit10.html">에어 맥스 2</a>
+            <a href="exhibit11.html">에어 맥스 3</a>
+            <a href="exhibit12.html">에어 맥스 4</a>
+            <a href="exhibit13.html">에어 맥스 5</a>
+            <a href="exhibit14.html">에어 맥스 6</a>
+            <a href="exhibit15.html">에어 맥스 7</a>
+            <a href="exhibit16.html">에어 맥스 8</a>
+        </div>
     </div>
 </body>
 </html>
+
